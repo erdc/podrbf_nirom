@@ -6,9 +6,13 @@ A collection of high-fidelity (HFM) snapshots are generated that sufficiently ca
 
 If you find this repo useful for your research, please consider citing:
 
-A greedy non-intrusive reduced order model for shallow water equations,[ArXiV preprint](https://arxiv.org/abs/2002.11329),
-S. Dutta, M. Farthing, E. Perracchione, G. Savant, M. Putti,
-*Journal of Computational Physics, [Link](https://doi.org/10.1016/j.jcp.2021.110378)* 
+**A greedy non-intrusive reduced order model for shallow water equations**,
+
+S. Dutta, M. Farthing, E. Perracchione, G. Savant, M. Putti, (2021),
+
+*Journal of Computational Physics, [Journal Link](https://doi.org/10.1016/j.jcp.2021.110378)*
+
+[ArXiV preprint](https://arxiv.org/abs/2002.11329).
 
 ```
 @article{DUTTA2021,
@@ -21,25 +25,6 @@ doi = {https://doi.org/10.1016/j.jcp.2021.110378},
 author = {Sourav Dutta and Matthew W. Farthing and Emma Perracchione and Gaurav Savant and Mario Putti},
 }
 ```
-
-
-Shallow water equations (Red River)
-:-----:
-<p align="center">
-    <img align = 'center' height="400" src="figures/red_river_h_t1.778_psr.png?raw=true">
-</p>
-
-p-greedy centers
-:-----:
-<img align = 'center' height="100" src="figures/red_river_p_greedy_centers_600.png?raw=true">
-
-f-greedy centers
-:-----:
-<img align = 'center' height="100" src="figures/red_river_f_greedy_centers_600.png?raw=true">
-
-psr-greedy centers
-:-----:
-<img align = 'center' height="100" src="figures/red_river_psr_greedy_centers_600.png?raw=true">
 
 
 ## Getting Started
@@ -69,6 +54,28 @@ cd podrbf_nirom
 cd notebooks
 jupyter notebook
 ```
+
+
+Shallow water equations (Red River)
+:-----:
+<p align="center">
+    <img align = 'center' height="400" src="figures/red_river_h_t1.778_psr.png?raw=true">
+</p>
+
+p-greedy centers
+:-----:
+<img align = 'center' height="100" src="figures/red_river_p_greedy_centers_600.png?raw=true">
+
+f-greedy centers
+:-----:
+<img align = 'center' height="100" src="figures/red_river_f_greedy_centers_600.png?raw=true">
+
+psr-greedy centers
+:-----:
+<img align = 'center' height="100" src="figures/red_river_psr_greedy_centers_600.png?raw=true">
+
+
+
 
 ## Authors
 
